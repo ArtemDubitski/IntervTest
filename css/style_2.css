@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body header {
+  margin-bottom: 70px;
+}
+
+body header .header_nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+body header .header_nav .a1_nav {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin-right: 21px;
+  font-family: "Inter", sans-serif;
+}
+
+body header .header_nav .a2_nav {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+body main .p_main {
+  width: 1100px;
+  height: 154px;
+  font-size: 64px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body main .p_main .b_main {
+  font-weight: 700;
+  font-size: 64px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+}
+
+body main .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 155px;
+  margin-bottom: 50px;
+}
+
+body main .main .test_l {
+  width: 398px;
+  height: 448px;
+  background: #eeeeee;
+}
+
+body main .main .test_l .p1_tl {
+  width: 282px;
+  height: 34px;
+  font-weight: 800;
+  font-size: 28px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 68px;
+}
+
+body main .main .test_l .p2_tl {
+  width: 299px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 35px;
+  margin-right: 64px;
+  margin-bottom: 60px;
+}
+
+body main .main .test_l .p3_tl {
+  width: 299px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 35px;
+  margin-right: 64px;
+}
+
+body main .main .test_l button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 348px;
+  height: 71px;
+  background: #f2e86d;
+  font-weight: 400;
+  font-size: 24px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  border: none;
+}
+
+body main .main .test_s {
+  width: 398px;
+  height: 448px;
+  background: #eeeeee;
+}
+
+body main .main .test_s .p1_ts {
+  width: 306px;
+  height: 34px;
+  font-weight: 800;
+  font-size: 28px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 68px;
+}
+
+body main .main .test_s .p2_ts {
+  width: 308px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 35px;
+  margin-right: 55px;
+  margin-bottom: 27px;
+}
+
+body main .main .test_s .p3_ts {
+  width: 308px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 35px;
+  margin-right: 55px;
+}
+
+body main .main .test_s button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 348px;
+  height: 71px;
+  background: #f2e86d;
+  font-weight: 400;
+  font-size: 24px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  border: none;
+}
+
+body main .main .test_p {
+  width: 398px;
+  height: 448px;
+  background: #eeeeee;
+}
+
+body main .main .test_p .p1_tp {
+  width: 348px;
+  height: 34px;
+  font-weight: 800;
+  font-size: 28px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 68px;
+}
+
+body main .main .test_p .p2_tp {
+  width: 212px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 49px;
+  margin-right: 137px;
+  margin-bottom: 58px;
+}
+
+body main .main .test_p .p3_tp {
+  width: 212px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-left: 49px;
+  margin-right: 137px;
+}
+
+body main .main .test_p button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 348px;
+  height: 71px;
+  background: #f2e86d;
+  font-weight: 400;
+  font-size: 24px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  border: none;
+}
+
+body main .p2_main {
+  width: 1141px;
+  height: 96px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 40px;
+  color: #343237;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 95px;
+}
+/*# sourceMappingURL=style_2.css.map */

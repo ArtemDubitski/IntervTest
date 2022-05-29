@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* font-family: 'Inter', sans-serif; */
-
 body {
   max-width: 1440px;
   width: 100%;
@@ -13,21 +13,25 @@ body {
   margin: 0 auto;
 }
 
-header {
+body header {
   margin-bottom: 80px;
 }
 
-.header_nav {
+body header .header_nav {
   width: 90%;
   margin: 0 auto;
   height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 28px;
   padding-bottom: 28px;
 }
 
-.a1_nav {
+body header .header_nav .a1_nav {
   font-size: 18px;
   color: black;
   text-decoration: none;
@@ -35,18 +39,20 @@ header {
   font-family: "Inter", sans-serif;
 }
 
-.a2_nav {
+body header .header_nav .a2_nav {
   font-size: 18px;
   color: black;
   text-decoration: none;
   font-family: "Inter", sans-serif;
 }
 
-.header {
+body header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-.header p {
+body header .header p {
   width: 500px;
   height: 300px;
   font-size: 34px;
@@ -56,12 +62,12 @@ header {
   margin-left: 20px;
 }
 
-main {
+body main {
   width: 90%;
   margin: 0 auto;
 }
 
-.p_main {
+body main .p_main {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -69,12 +75,16 @@ main {
   color: #343237;
 }
 
-.main {
+body main .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.qa {
+body main .main .qa {
   width: 396px;
   height: 447px;
   background: #eeeeee;
@@ -83,7 +93,7 @@ main {
   padding-top: 24px;
 }
 
-.p1_qa {
+body main .main .qa .p1_qa {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 64px;
@@ -91,7 +101,7 @@ main {
   margin-bottom: 12px;
 }
 
-.p2_qa {
+body main .main .qa .p2_qa {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -99,19 +109,21 @@ main {
   margin-bottom: 60px;
 }
 
-.qa button {
+body main .main .qa button {
   font-family: "Inter", sans-serif;
   width: 348px;
   height: 71px;
   background: #f2e86d;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 400;
   font-size: 24px;
   color: #343237;
   border: none;
 }
 
-.frontend {
+body main .main .frontend {
   width: 396px;
   height: 447px;
   background: #eeeeee;
@@ -120,7 +132,7 @@ main {
   padding-top: 24px;
 }
 
-.p1_fe {
+body main .main .frontend .p1_fe {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 64px;
@@ -128,7 +140,7 @@ main {
   margin-bottom: 12px;
 }
 
-.p2_fe {
+body main .main .frontend .p2_fe {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -136,19 +148,21 @@ main {
   margin-bottom: 122px;
 }
 
-.frontend button {
+body main .main .frontend button {
   font-family: "Inter", sans-serif;
   width: 348px;
   height: 71px;
   background: #f2e86d;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 400;
   font-size: 24px;
   color: #343237;
   border: none;
 }
 
-.ui_ux {
+body main .main .ui_ux {
   width: 396px;
   height: 447px;
   background: #eeeeee;
@@ -157,7 +171,7 @@ main {
   padding-top: 24px;
 }
 
-.p1_ui {
+body main .main .ui_ux .p1_ui {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 64px;
@@ -165,7 +179,7 @@ main {
   margin-bottom: 12px;
 }
 
-.p2_ui {
+body main .main .ui_ux .p2_ui {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -173,14 +187,190 @@ main {
   margin-bottom: 91px;
 }
 
-.ui_ux button {
+body main .main .ui_ux button {
   font-family: "Inter", sans-serif;
   width: 348px;
   height: 71px;
   background: #f2e86d;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 400;
   font-size: 24px;
   color: #343237;
   border: none;
 }
+
+body footer {
+  padding-top: 80px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .p1_foot {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 39px;
+}
+
+body footer .Reviews {
+  width: 708px;
+  height: 527px;
+  background: #eeeeee;
+  overflow-y: scroll;
+  padding-top: 24px;
+  padding-left: 23px;
+}
+
+body footer .Reviews .r1 {
+  width: 661px;
+  height: 266px;
+  background: #FFFFFF;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+
+body footer .Reviews .r1 .p_r1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .Reviews .r1 .p_r1 .p1_r1 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: #574D68;
+  margin-bottom: 20px;
+}
+
+body footer .Reviews .r1 .p_r1 .p2_r1 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+body footer .Reviews .r1 .p3_r1 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body footer .Reviews .r2 {
+  width: 661px;
+  height: 266px;
+  background: #FFFFFF;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+
+body footer .Reviews .r2 .p_r2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .Reviews .r2 .p_r2 .p1_r2 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: #574D68;
+  margin-bottom: 20px;
+}
+
+body footer .Reviews .r2 .p_r2 .p2_r2 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+body footer .Reviews .r2 .p3_r2 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body footer .Reviews .r3 {
+  width: 661px;
+  height: 266px;
+  background: #FFFFFF;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+
+body footer .Reviews .r3 .p_r3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .Reviews .r3 .p_r3 .p1_r3 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: #574D68;
+  margin-bottom: 20px;
+}
+
+body footer .Reviews .r3 .p_r3 .p2_r3 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+body footer .Reviews .r3 .p3_r3 {
+  font-family: "Inter", sans-serif;
+  color: #343237;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body footer .contacts {
+  margin-left: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .contacts p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+body footer .contacts a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #574D68;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=style.css.map */
