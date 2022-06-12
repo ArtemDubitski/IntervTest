@@ -91,8 +91,11 @@ body {
                     align-items: center;
                     font-weight: 400;
                     font-size: 24px;
-                    color: #343237;
                     border: none;
+                    a{
+                        color: #343237;
+                        text-decoration: none; 
+                    }
                 }
             }
             .frontend {
@@ -124,8 +127,11 @@ body {
                     align-items: center;
                     font-weight: 400;
                     font-size: 24px;
-                    color: #343237;
                     border: none;
+                    a{
+                        color: #343237;
+                        text-decoration: none; 
+                    }
                 }
             }
             .ui_ux {
@@ -157,8 +163,11 @@ body {
                     align-items: center;
                     font-weight: 400;
                     font-size: 24px;
-                    color: #343237;
                     border: none;
+                    a{
+                        color: #343237;
+                        text-decoration: none; 
+                    }
                 }
             }
         }
@@ -170,115 +179,122 @@ body {
         margin: 0 auto;
         padding-bottom: 77px;
         display: flex;
-        .p1_foot {
-            font-family: "Inter", sans-serif;
-            font-weight: 700;
-            font-size: 36px;
-            margin-bottom: 39px;
-        }
-        .Reviews {
-            width: 708px;
-            height: 527px;
-            background: #eeeeee;
-            overflow-y: scroll;
-            padding-top: 24px;
-            padding-left: 23px;
-            .r1{
-                width: 661px;
-                height: 266px;
-                background: #FFFFFF;
-                margin-bottom: 24px;
-                padding: 20px;
-                .p_r1{
-                    display: flex;
-                    justify-content: space-between;
-                    .p1_r1{
-                        font-weight: 600;
-                        font-size: 24px;
-                        font-family: "Inter", sans-serif;
-                        color: #574D68;
-                        margin-bottom: 20px;
+        justify-content: space-between;
+        .footer{
+            width: 60%;
+            .p1_foot {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                margin-bottom: 39px;
+            }
+            .Reviews {
+                max-width: 708px;
+                width: 100%;
+                height: 527px;
+                background: #eeeeee;
+                overflow-y: scroll;
+                padding-top: 24px;
+                padding-left: 23px;
+                .r1{
+                    max-width: 661px;
+                    width: 100%;
+                    min-height: 266px;
+                    background: #FFFFFF;
+                    margin-bottom: 24px;
+                    padding: 20px;
+                    .p_r1{
+                        display: flex;
+                        justify-content: space-between;
+                        .p1_r1{
+                            font-weight: 600;
+                            font-size: 24px;
+                            font-family: "Inter", sans-serif;
+                            color: #574D68;
+                            margin-bottom: 20px;
+                        }
+                        .p2_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;    
+                            margin-top: 6px;
+                        }
                     }
-                    .p2_r1{
+                    .p3_r1{
                         font-family: "Inter", sans-serif;
                         color: #343237;
                         font-weight: 400;
-                        font-size: 14px;    
-                        margin-top: 6px;
+                        font-size: 18px;
                     }
                 }
-                .p3_r1{
-                    font-family: "Inter", sans-serif;
-                    color: #343237;
-                    font-weight: 400;
-                    font-size: 18px;
-                }
-            }
-            .r2{
-                width: 661px;
-                height: 266px;
-                background: #FFFFFF;
-                margin-bottom: 24px;
-                padding: 20px;
-                .p_r2{
-                    display: flex;
-                    justify-content: space-between;
-                    .p1_r2{
-                        font-weight: 600;
-                        font-size: 24px;
-                        font-family: "Inter", sans-serif;
-                        color: #574D68;
-                        margin-bottom: 20px;
+                .r2{
+                    max-width: 661px;
+                    width: 100%;
+                    min-height: 266px;
+                    background: #FFFFFF;
+                    margin-bottom: 24px;
+                    padding: 20px;
+                    .p_r2{
+                        display: flex;
+                        justify-content: space-between;
+                        .p1_r2{
+                            font-weight: 600;
+                            font-size: 24px;
+                            font-family: "Inter", sans-serif;
+                            color: #574D68;
+                            margin-bottom: 20px;
+                        }
+                        .p2_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;    
+                            margin-top: 6px;
+                        }
                     }
-                    .p2_r2{
-                        font-family: "Inter", sans-serif;
-                        color: #343237;
-                        font-weight: 400;
-                        font-size: 14px;    
-                        margin-top: 6px;
-                    }
-                }
-                .p3_r2{
-                    font-family: "Inter", sans-serif;
-                    color: #343237;
-                    font-weight: 400;
-                    font-size: 18px;
-                }
-            }
-            .r3{
-                width: 661px;
-                height: 266px;
-                background: #FFFFFF;
-                margin-bottom: 24px;
-                padding: 20px;
-                .p_r3{
-                    display: flex;
-                    justify-content: space-between;
-                    .p1_r3{
-                        font-weight: 600;
-                        font-size: 24px;
-                        font-family: "Inter", sans-serif;
-                        color: #574D68;
-                        margin-bottom: 20px;
-                    }
-                    .p2_r3{
+                    .p3_r2{
                         font-family: "Inter", sans-serif;
                         color: #343237;
                         font-weight: 400;
-                        font-size: 14px;    
-                        margin-top: 6px;
+                        font-size: 18px;
                     }
                 }
-                .p3_r3{
-                    font-family: "Inter", sans-serif;
-                    color: #343237;
-                    font-weight: 400;
-                    font-size: 18px;
+                .r3{
+                    max-width: 661px;
+                    width: 100%;
+                    min-height: 266px;
+                    background: #FFFFFF;
+                    margin-bottom: 24px;
+                    padding: 20px;
+                    .p_r3{
+                        display: flex;
+                        justify-content: space-between;
+                        .p1_r3{
+                            font-weight: 600;
+                            font-size: 24px;
+                            font-family: "Inter", sans-serif;
+                            color: #574D68;
+                            margin-bottom: 20px;
+                        }
+                        .p2_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;    
+                            margin-top: 6px;
+                        }
+                    }
+                    .p3_r3{
+                        font-family: "Inter", sans-serif;
+                        color: #343237;
+                        font-weight: 400;
+                        font-size: 18px;
+                    }
                 }
-            }
+            }   
         }
         .contacts{
-            margin-left: 124px;
             display: flex;
             flex-direction: column;
             p{
@@ -294,6 +310,2356 @@ body {
                 font-family: "Inter", sans-serif;
                 text-decoration: none;
                 margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:1360px){
+    body{
+        header{
+            .header {
+                display: flex;
+                p {
+                    font-size: 34px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 100px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 330px;
+                    height: 373px;
+                    background: #eeeeee;
+                    padding-left: 20px;
+                    padding-right: 24px;
+                    padding-top: 24px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 53px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        margin-bottom: 40px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 290px;
+                        height: 71px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 330px;
+                    height: 373px;
+                    background: #eeeeee;
+                    padding-left: 20px;
+                    padding-right: 24px;
+                    padding-top: 24px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 53px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        margin-bottom: 90px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 290px;
+                        height: 71px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 330px;
+                    height: 373px;
+                    background: #eeeeee;
+                    padding-left: 20px;
+                    padding-right: 24px;
+                    padding-top: 24px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 53px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        margin-bottom: 63px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 290px;
+                        height: 71px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}   
+
+@media(max-width:1200px){
+    body{
+        header{
+            .header {
+                display: flex;
+                p {
+                    font-size: 30px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 100px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1150px) {
+    body{
+        main{
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 275px;
+                    height: 311px;
+                    background: #eeeeee;
+                    padding-left: 17px;
+                    padding-right: 24px;
+                    padding-top: 16px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 44px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 25px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 242px;
+                        height: 59px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 275px;
+                    height: 311px;
+                    background: #eeeeee;
+                    padding-left: 17px;
+                    padding-right: 24px;
+                    padding-top: 16px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 44px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 70px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 242px;
+                        height: 59px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 275px;
+                    height: 311px;
+                    background: #eeeeee;
+                    padding-left: 17px;
+                    padding-right: 24px;
+                    padding-top: 16px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 44px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 25px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 242px;
+                        height: 59px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:960px) {
+    body{
+        header{
+            .header {
+                display: flex;
+                p {
+                    font-size: 30px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 50px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 229px;
+                    height: 259px;
+                    background: #eeeeee;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    padding-top: 14px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 36px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #343237;
+                        margin-bottom: 25px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 202px;
+                        height: 49px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 229px;
+                    height: 259px;
+                    background: #eeeeee;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    padding-top: 14px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 36px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #343237;
+                        margin-bottom: 61px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 202px;
+                        height: 49px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 229px;
+                    height: 259px;
+                    background: #eeeeee;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    padding-top: 14px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 36px;
+                        color: #343237;
+                        margin-bottom: 12px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #343237;
+                        margin-bottom: 25px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 202px;
+                        height: 49px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:870px) {
+    body{
+        header{
+            .header {
+                display: flex;
+                p {
+                    font-size: 25px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 50px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main {
+            width: 90%;
+            margin: 0 auto;
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                margin-bottom: 36px;
+                color: #343237;
+            }
+        }
+      
+        footer {
+            padding-top: 80px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 77px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-bottom: 39px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 527px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 24px;
+                    padding-left: 23px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 266px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 20px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 20px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 12px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 266px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 20px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 20px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 12px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 266px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 20px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 20px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 12px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-bottom: 24px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }    
+}
+
+@media (max-width:800px) {
+    body{
+        header{
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 90px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 28px;
+                img {
+                    width: 190px;
+                    height: 30px;
+                }
+                .a1_nav {
+                    font-size: 16px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 16px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    font-size: 25px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 191px;
+                    height: 216px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 30px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        margin-bottom: 15px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 168px;
+                        height: 41px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 191px;
+                    height: 216px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 30px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        margin-bottom: 47px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 168px;
+                        height: 41px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 191px;
+                    height: 216px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 30px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        margin-bottom: 15px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 168px;
+                        height: 41px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 77px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    margin-bottom: 39px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 300px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 24px;
+                    padding-left: 23px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 220px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 15px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 18px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 10px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 12px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 220px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 15px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 18px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 10px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 12px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 220px;
+                        background: #FFFFFF;
+                        margin-bottom: 24px;
+                        padding: 15px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 18px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 10px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    margin-bottom: 24px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:660px) {
+    body{
+        header{
+            margin-bottom: 40px;
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 90px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 28px;
+                img {
+                    width: 164px;
+                    height: 26px;
+                }
+                .a1_nav {
+                    font-size: 14px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 14px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    font-size: 21px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 28px;
+                margin-bottom: 36px;
+                color: #343237;
+            }
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 159px;
+                    height: 200px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 25px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        margin-bottom: 15px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 140px;
+                        height: 34px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 159px;
+                    height: 200px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 25px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        margin-bottom: 55px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 140px;
+                        height: 34px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 159px;
+                    height: 200px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 25px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        margin-bottom: 28px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 140px;
+                        height: 34px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 77px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 300px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 14px;
+                    padding-left: 14px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 12px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 17px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 9px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 12px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 17px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 9px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 12px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 17px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 20px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 9px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:570px) {
+    body{
+        header{
+            margin-bottom: 40px;
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 0px;
+                img {
+                    width: 138px;
+                    height: 22px;
+                }
+                .a1_nav {
+                    font-size: 13px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 13px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    font-size: 19px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 26px;
+                margin-bottom: 36px;
+                color: #343237;
+            }
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 145px;
+                    height: 180px;
+                    background: #eeeeee;
+                    padding-left: 8px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        margin-bottom: 15px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 128px;
+                        height: 32px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 145px;
+                    height: 180px;
+                    background: #eeeeee;
+                    padding-left: 8px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        margin-bottom: 50px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 128px;
+                        height: 32px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 145px;
+                    height: 180px;
+                    background: #eeeeee;
+                    padding-left: 8px;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        margin-bottom: 26px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 128px;
+                        height: 32px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 23px;
+                    margin-bottom: 20px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 290px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 12px;
+                    padding-left: 12px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 11px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 16px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 8px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 11px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 16px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 8px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 10px;
+                        padding: 11px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 16px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 8px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 23px;
+                    margin-bottom: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    body{
+        header{
+            margin-bottom: 40px;
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 0px;
+                img {
+                    width: 112px;
+                    height: 18px;
+                }
+                .a1_nav {
+                    font-size: 12px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 12px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    width: 40%;
+                    max-height: 300px;
+                    height: 100%;
+                    font-size: 17px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                    margin-bottom: 25px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 23px;
+                margin-bottom: 36px;
+                color: #343237;
+            }
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 120px;
+                    height: 170px;
+                    background: #eeeeee;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 9px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 107px;
+                        height: 27px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 120px;
+                    height: 170px;
+                    background: #eeeeee;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 9px;
+                        color: #343237;
+                        margin-bottom: 52px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 107px;
+                        height: 27px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 120px;
+                    height: 170px;
+                    background: #eeeeee;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 9px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 107px;
+                        height: 27px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 11px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 21px;
+                    margin-bottom: 20px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 290px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 9px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 15px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 7px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 10px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 20px;
+                        padding: 9px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 15px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 7px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 10px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 190px;
+                        background: #FFFFFF;
+                        margin-bottom: 10px;
+                        padding: 9px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 15px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 7px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 21px;
+                    margin-bottom: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    body{
+        header{
+            margin-bottom: 40px;
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 0px;
+                img {
+                    width: 84px;
+                    height: 14px;
+                }
+                .a1_nav {
+                    font-size: 11px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 11px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    width: 40%;
+                    max-height: 300px;
+                    height: 100%;
+                    font-size: 15px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                    margin-bottom: 25px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 21px;
+                margin-bottom: 20px;
+                color: #343237;
+            }
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 110px;
+                    height: 155px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 17px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 89px;
+                        height: 23px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 110px;
+                    height: 155px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 17px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        margin-bottom: 48px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 89px;
+                        height: 23px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 110px;
+                    height: 155px;
+                    background: #eeeeee;
+                    padding-left: 9px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 17px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 89px;
+                        height: 23px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 250px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 180px;
+                        background: #FFFFFF;
+                        margin-bottom: 15px;
+                        padding: 9px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 14px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 6px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 9px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 180px;
+                        background: #FFFFFF;
+                        margin-bottom: 15px;
+                        padding: 9px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 14px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 6px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 9px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 180px;
+                        background: #FFFFFF;
+                        margin-bottom: 10px;
+                        padding: 9px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 14px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 6px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 11px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:390px) {
+    body{
+        header{
+            margin-bottom: 40px;
+            .header_nav {
+                width: 90%;
+                margin: 0 auto;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 28px;
+                padding-bottom: 0px;
+                img {
+                    width: 84px;
+                    height: 14px;
+                }
+                .a1_nav {
+                    font-size: 10px;
+                    color: black;
+                    text-decoration: none;
+                    margin-right: 24px;
+                    font-family: "Inter", sans-serif;
+                }
+                .a2_nav {
+                    font-size: 10px;
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                }
+            }
+            .header {
+                display: flex;
+                p {
+                    width: 40%;
+                    max-height: 300px;
+                    height: 100%;
+                    font-size: 14px;
+                    font-weight: 800;
+                    font-family: "Inter", sans-serif;
+                    margin-top: 25px;
+                    margin-left: 20px;
+                    margin-bottom: 25px;
+                }
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        main{
+            .p_main {
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 19px;
+                margin-bottom: 20px;
+                color: #343237;
+            }
+            .main {
+                display: flex;
+                justify-content: space-between;
+                .qa {
+                    width: 100px;
+                    height: 140px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_qa {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 7px;
+                        color: #343237;
+                        margin-bottom: 7px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 74px;
+                        height: 19px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .frontend {
+                    width: 100px;
+                    height: 140px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }
+                    .p2_fe {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 7px;
+                        color: #343237;
+                        margin-bottom: 40px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 74px;
+                        height: 19px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+                .ui_ux {
+                    width: 100px;
+                    height: 140px;
+                    background: #eeeeee;
+                    padding-left: 11px;
+                    padding-right: 7px;
+                    padding-top: 10px;
+                    .p1_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #343237;
+                        margin-bottom: 8px;
+                    }  
+                    .p2_ui {
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 7px;
+                        color: #343237;
+                        margin-bottom: 6px;
+                    }
+                    button {
+                        font-family: "Inter", sans-serif;
+                        width: 74px;
+                        height: 19px;
+                        background: #f2e86d;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 8px;
+                        color: #343237;
+                        border: none;
+                    }
+                }
+            }
+        }
+        footer {
+            padding-top: 40px;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .footer{
+                width: 60%;
+                .p1_foot {
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }   
+                .Reviews {
+                    max-width: 708px;
+                    width: 100%;
+                    height: 250px;
+                    background: #eeeeee;
+                    overflow-y: scroll;
+                    padding-top: 8px;
+                    padding-left: 8px;
+                    .r1{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 160px;
+                        background: #FFFFFF;
+                        margin-bottom: 15px;
+                        padding: 7px;
+                        .p_r1{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r1{
+                                font-weight: 600;
+                                font-size: 13px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r1{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 5px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r1{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 8px;
+                        }
+                    }
+                    .r2{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 160px;
+                        background: #FFFFFF;
+                        margin-bottom: 15px;
+                        padding: 7px;
+                        .p_r2{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r2{
+                                font-weight: 600;
+                                font-size: 13px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r2{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 5px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r2{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 8px;
+                        }
+                    }
+                    .r3{
+                        max-width: 661px;
+                        width: 100%;
+                        min-height: 160px;
+                        background: #FFFFFF;
+                        margin-bottom: 10px;
+                        padding: 7px;
+                        .p_r3{
+                            display: flex;
+                            justify-content: space-between;
+                            .p1_r3{
+                                font-weight: 600;
+                                font-size: 13px;
+                                font-family: "Inter", sans-serif;
+                                color: #574D68;
+                                margin-bottom: 10px;
+                            }
+                            .p2_r3{
+                                font-family: "Inter", sans-serif;
+                                color: #343237;
+                                font-weight: 400;
+                                font-size: 5px;    
+                                margin-top: 6px;
+                            }
+                        }
+                        .p3_r3{
+                            font-family: "Inter", sans-serif;
+                            color: #343237;
+                            font-weight: 400;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 10px;
+                    color: #574D68;
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    margin-bottom: 13px;
+                }
             }
         }
     }
